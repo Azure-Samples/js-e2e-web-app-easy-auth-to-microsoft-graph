@@ -1,57 +1,8 @@
-# Project Name
+# Use Azure Easy Auth with App Service to get user's profile
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+1. Deploy to an Azure App Service
+2. Configure App Service to use Microsoft Identity Provider from the App Service (easy auth)
+3. Open site in browser.
+4. When prompted, sign in to Azure. 
+5. Use browser to select **Access token**. This also displays decoded JWT. 
+6. Use browser to select **Get profile from Microsoft Graph**. This displays the user's profile from Microsoft Graph.
